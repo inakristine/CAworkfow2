@@ -1,0 +1,673 @@
+
+body{
+    background-image: url(dist/img/vei.png);
+    background-size: 100%;
+    background-repeat:no-repeat;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+            
+
+
+
+
+
+/*••••Styling of NAV•••*/
+
+
+a{
+    text-decoration: none;
+    color: #730000;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 6vw;
+    line-height: 5.5vw;
+    text-align: center;
+        
+}
+
+a:hover{
+    color: darkslategrey;
+    font-size: 7vw;
+    text-align: center;
+}
+
+.button{
+    &--1{
+        position: absolute;
+        left: 5vw;
+        top: 3vw;
+    }
+    &--2{
+        position: absolute;
+        left: 26vw;
+        top: 3vw;
+    }
+    &--3{
+        left: 49vw;
+        top: 3vw;
+    }
+    &--4{
+        position: absolute;
+        left: 73vw;
+        top: 3vw;
+    }
+}
+
+body{
+    background-image: url(img/vei.png);
+    background-size: 100%;
+    background-repeat:no-repeat;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+
+            
+
+
+
+
+
+/*••••Styling of NAV•••*/
+
+
+
+a{
+    text-decoration: none;
+    color: #730000;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 6vw;
+    line-height: 5.5vw;
+    text-align: center;
+        
+}
+
+a:hover{
+    color: darkslategrey;
+    font-size: 7vw;
+    text-align: center;
+}
+
+
+
+
+img.leaf{
+    position: absolute;
+    width: 23vw;
+    z-index: -1;
+}
+
+
+
+
+
+
+.button1{
+    position: absolute;
+    left: 5vw;
+    top: 3vw;
+}
+
+
+.button2{
+    position:absolute;
+    left: 26vw;
+    top: 3vw;
+}
+
+
+.button3{
+    position: absolute;
+    left: 49vw;
+    top: 3vw;
+}
+
+
+.button4{
+    position: absolute;
+    left: 73vw;
+    top: 3vw;
+}
+
+#home{
+    position: absolute;
+    top: 6vw;
+    left: 5vw;
+}
+
+#about{
+    position:absolute;
+    top: 1.2vw;
+    left: 7vw;
+    z-index: 0;
+}
+
+#tours{
+    position:absolute;
+    top: 2vw;
+    left: 8vw;
+}
+
+#contact{
+    position:absolute;
+    top: 7vw;
+    left: 3.5vw;
+    z-index: 1;
+}
+
+/*••••Styling of NAV end•••*/
+
+/*••••Styling of Logo and illustration•••*/
+
+.div2-logo{
+    position: absolute;
+    top: 20vw;
+    left: 4vw;
+
+    width: 60vw;
+}
+
+.div4-illustration{
+    position: absolute;
+    top: 25vw;
+    left: 62vw;
+    width: 35vw;
+}
+
+.div3-illustration{
+    position: absolute;
+    top: 24vw;
+    left: 2vw;
+    width: 95vw;
+}
+.div5-illustration{
+    display: none;
+}
+
+
+/*••••Styling of Logo and illustration end•••*/
+
+/*••••Styling of text•••*/
+
+H1{
+    margin: 0;
+    font-family: 'Shadows Into Light Two', cursive;
+    color: #730000;
+    font-size: 8.5vw;
+    line-height: 11vw;
+}
+
+
+
+h3{
+    margin: 0;
+    color: #730000;
+    font-family: 'Ubuntu:600', sans-serif;
+    margin-top: 4vw;
+    font-size: 5vw;
+}
+
+
+
+p{
+    margin: 0;
+    font-family: 'Ubuntu:400', sans-serif;
+    font-size: 4vw;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    line-height: 5vw;
+}
+
+
+
+.div4-text{
+    position: absolute;
+    top: 50vw;
+    margin: 6vw;
+    margin-bottom: 20vw;
+}
+
+ .tour-dxata{
+        color: #64823B;
+         font-size: 4.5vw;
+         line-height: 6.5VW;
+}
+
+.div6-text{
+    position: absolute;
+    top: 90vw;
+    margin: 8vw;
+    margin-bottom: 20vw;
+    padding-bottom: 20vw;
+
+}
+
+
+
+/*••••Styling of text end•••*/
+
+/*••••Styling of form •••*/
+
+
+
+
+
+.div6-form{
+    position: absolute;
+    top: 90vw;
+    
+    margin: 6vw;
+}
+
+input[type="text"]{
+    
+    border: 3px solid #64823B;
+    width: 85vw;
+    padding: 1vw;
+    font-family: 'Ubuntu:400', sans-serif;
+    font-size: 4vw;
+    margin-top: -4vw;
+    margin-bottom: 2vw;
+    background-color: #DDDDC7;
+}
+
+textarea{
+    border: 3px solid #64823B;
+    height: 45vw;
+    width: 85vw;
+    font-family: 'Ubuntu:400', sans-serif;
+    font-size: 4vw;
+    padding: 1vw;
+    margin-top: -3vw;
+    background-color: #DDDDC7;
+}
+    
+input[type="submit"]{
+    background-color: #64823B;
+    height: 8vw;
+    width: 16vw;
+    padding: 1vw;
+    font-family: 'Ubuntu:400', sans-serif;
+    font-size: 4vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    color: white;
+    margin-bottom: 12vw;
+}
+
+
+
+/*••••Styling of form end •••*/
+
+
+/*••••Styling of footer••••*/
+
+footer{position:fixed;
+    bottom: 0;
+    margin-bottom: 0;
+    width: 100%;
+    height: 12vw;
+    box-shadow: 2px 0px 30px rgba(90,110,39,0.7);
+    background-color: #DDDDC7;
+    color: #64823B;
+}
+
+#social-media{
+   position: absolute;
+    top: 1.5vw;
+    left: 50vw;
+}
+.social-media{
+    width: 8vw;
+    margin: 0.5vw;
+}
+
+.social-media:hover{
+    width: 9vw;
+    margin: 0;
+}
+
+.social-media:active{
+    width: 7.7vw;
+    margin: 0;
+}
+
+#copyright{
+
+   position: absolute;
+    top: 2.5vw;
+    left: 6vw;  
+    font-family: 'Ubuntu:400', sans-serif;
+    font-size: 3vw;
+    width: 42vw;
+}
+/*••••Styling of footer end••••*/
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 600px){
+    
+body{
+    background-image: url(img/vei.png);
+    background-size: 100%;
+    background-repeat:no-repeat;
+    box-sizing: border-box;
+    margin: 0;
+    background-position: 0vw -50vw;
+}
+    
+ 
+    
+/*••••Styling of NAV•••*/
+    
+a{
+    font-size: 4vw;
+    line-height: 4vw
+}
+
+a:hover{
+    color: darkslategrey;
+    font-size: 5.5vw;
+}
+    
+    
+img.leaf{
+    position: absolute;
+    height: 10vw;
+    width: 16vw;
+    }
+    
+
+.button1{
+    position: absolute;
+    left: 1vw;
+    top: 5vw;
+}
+
+
+.button2{
+    position:absolute;
+    left: 16vw;
+    top: 3vw;
+}
+
+
+.button3{
+    position: absolute;
+    left: 33vw;
+    top: 2vw;
+}
+
+
+.button4{
+    position: absolute;
+    left: 50vw;
+    top: 1vw;
+}
+
+#home{
+    position: absolute;
+    top: 3vw;
+    left: 3vw;
+}
+
+#about{
+    position:absolute;
+    top: 2;
+    left: 3vw;
+    z-index: 0;
+}
+
+#tours{
+    position:absolute;
+    top: 0.6vw;
+    left: 4vw;
+}
+
+#contact{
+    position:absolute;
+    top: 3vw;
+    left: 2vw;
+    z-index: 1;
+}
+    
+/*••••Styling of NAV end•••*/
+    
+/*••••Styling of Logo and illustration•••*/
+
+
+
+    
+    
+.div4-illustration{
+    display:block;
+    position: absolute;
+    top: 6vw;
+    left: 57vw;
+    width: 40vw;
+}
+    
+    .div2-logo{
+    position: absolute;
+    top: 15vw;
+    left: 6vw;
+
+    width: 55vw;
+}
+    .div3-illustration{
+    display: none;
+}
+    
+    
+.div5-illustration{
+    display:block;
+    position: absolute;
+    top: 6vw;
+    left: 57vw;
+    width: 40vw;
+}
+    
+    
+    /*••••Styling of Logo and illustration•••*/
+    
+    /*••••Styling of text•••*/
+
+H1{
+    font-size: 5vw;
+    line-height: 5vw;
+    
+    
+    
+}
+
+
+
+h3{
+
+    margin-top: 2.5vw;
+    font-size: 3vw;
+    
+}
+
+
+
+p{
+   
+    font-size: 2vw;
+    margin-top: 1vw;
+    line-height: 3vw
+}
+    
+   
+
+
+
+.div4-text{
+    position: absolute;
+    top: 40vw;
+    margin: 8vw;
+    margin-bottom: 10vw;
+    
+
+}
+.tour-dxata{
+    color: #64823B;
+    font-size: 2.3vw;
+    line-height: 3.5VW;
+
+    }
+    
+
+.div6-text{
+    position: absolute;
+    top: 40vw;
+    margin: 8vw;
+    
+    }
+    
+/*••••Styling of text end•••*/
+    
+ /*••••Styling of form•••*/    
+    
+    
+    
+    
+.div6-form{
+    position: absolute;
+    top: 62vw;
+    font-size: 2vw;
+    margin: 7vw;
+    padding-bottom: 12vw;
+    margin-bottom: 50vw;
+}
+
+input{
+    border: 3px solid #64823B;
+    height: 3vw;
+    width: 30vw;
+    font-family: 'Ubuntu:400', sans-serif;
+    padding: 0.3vw;
+    font-size: 2vw;
+    margin-top:-1vw;
+    margin-bottom: 0vw;
+    background-color: #DDDDC7;
+}
+
+textarea{
+    height: 20vw;
+    width: 85vw;
+    padding: 0,5vw;
+    font-size: 2vw;
+    margin-top:-1vw;
+}
+    
+    
+    
+input[type="submit"]{
+    background-color: #64823B;
+    height: 6vw;
+    width: 10vw;
+    padding: 1vw;
+    font-family: 'Ubuntu:400', sans-serif;
+    font-size: 2vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    color: white
+    }
+
+    
+input[name="full_name"]{
+    height: 3vw;
+    width: 39vw;
+    padding: 0,5vw;
+    padding-left: 2vw;
+    margin-top: 0;
+    font-size: 2vw;
+    }
+#name{
+    position: absolute;
+    top: 5vw;
+}
+
+    
+input[name="email-adress"]{
+    height: 3vw;
+    width: 38vw;
+    padding: 0,5vw;
+    padding-left: 2vw;
+    margin-top: 0;
+    font-size: 2vw;
+    }
+#email{
+    position: absolute;
+    top: 5vw;
+    left: 46vw;
+}
+
+    
+    
+    
+    
+#message{
+    position: absolute;
+    top: 19vw;
+}
+
+
+/*••••Styling of form end•••*/
+    
+    /*••••Styling of footer••••*/
+
+    footer{
+    height: 6vw;
+        
+    vertical-align: middle;
+}
+
+#social-media{
+   position: absolute;
+    top: 0.2vw;
+    left: 63vw;
+}
+.social-media{
+    width: 5vw;
+    margin: 0.5vw;
+}
+    
+.social-media:hover{
+    width: 6vw;
+    margin: 0;
+}
+
+.social-media:active{
+    width: 4.7vw;
+    margin: 0;
+}
+
+#copyright{
+
+   position: absolute;
+    top: 1vw;
+    left: 7vw;  
+    font-family: 'Ubuntu:400', sans-serif;
+    font-size: 15px;
+    width: 42vw;
+    height: 4vw;
+}
+/*••••Styling of footer end••••*/
+
+    
+}
